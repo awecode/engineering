@@ -1,25 +1,31 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
-layout: home
-
-hero:
-  name: "Awecode Engineering"
-  text: "Awecode Engineering"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+title: Home
+navigation: false
 ---
 
+::hero
+---
+announcement:
+  title: 'Release v0.5.2'
+  icon: 'lucide:party-popper'
+  to: https://github.com/ZTL-UwU/shadcn-docs-nuxt/releases
+  target: _blank
+actions:
+  - name: Get Started
+    to: /getting-started
+  - name: GitHub
+    variant: outline
+    to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
+    leftIcon: 'lucide:github'
+---
+
+#title
+Effortless and Beautiful :br Docs Template.
+
+#description
+Beautifully designed Nuxt Content template built with shadcn-vue. :br Customizable. Compatible. Open Source.
+::
+
+<div class="border rounded-lg shadow-md">
+  <iframe src="/getting-started/introduction" height="700" width="100%" class="rounded-lg" scrolling="no" frameborder="0">
+</div>
