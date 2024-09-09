@@ -20,7 +20,7 @@ export default defineAppConfig({
       nav: [],
       links: [{
         icon: 'iconoir:github',
-        to: 'https://github.com/awecode/engineering',
+        to: 'https://github.com/awecode',
         target: '_blank',
       }],
     },
@@ -36,21 +36,21 @@ export default defineAppConfig({
       credits: 'Copyright © 2024',
       links: [{
         icon: 'iconoir:github',
-        to: 'https://github.com/awecode/engineering',
+        to: 'https://github.com/awecode',
         target: '_blank',
       }, {
-        icon: 'iconoir:website',
+        icon: 'iconoir:internet',
         to: 'https://awecode.com',
         target: '_blank',
       }],
     },
     toc: {
-      enable: false,
-      title: 'On This Page',
+      enable: true,
+      title: 'On this page',
     },
     search: {
       enable: false,
-      inAside: false,
+      // inAside: true
     },
   },
 })
